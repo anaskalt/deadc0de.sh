@@ -1,0 +1,11 @@
+{{/* Site override of the theme footer: same look, without "built with hugo". */}}
+<footer class="footer">
+  <div class="wrap">
+    <span><span class="prompt">$</span> echo &copy; {{ now.Year }} {{ site.Params.author | default site.Title }}</span>
+    {{- with site.Params.social }}
+    <span>
+      {{- range . }}<a href="{{ .url }}" rel="me noopener" target="_blank">{{ .name }}</a>&nbsp;&nbsp;{{ end -}}
+    </span>
+    {{- end }}
+  </div>
+</footer>
