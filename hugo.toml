@@ -1,0 +1,57 @@
+baseURL = "https://deadc0de.sh/"
+locale = "en-US"
+title = "deadc0de"
+theme = "phosphor"
+enableRobotsTXT = true
+enableEmojis = true
+
+[pagination]
+  pagerSize = 8
+
+[taxonomies]
+  tag = "tags"
+
+# Optional: uncomment to enable Google Analytics (the theme already wires it up).
+# [services.googleAnalytics]
+#   ID = "G-XXXXXXXXXX"
+
+[outputs]
+  home = ["html", "rss"]
+
+[params]
+  author      = "deadc0de"
+  promptUser  = "root"
+  promptHost  = "deadc0de"
+  description = "Security writeups: ethical pentesting, embedded, reversing."
+  bio         = "I break things on purpose and write it down. Pentesting, embedded/IoT, reversing — education and **authorized** testing only."
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/anaskalt"
+  [[params.social]]
+    name = "rss"
+    url  = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name       = "posts"
+    pageRef    = "/posts"
+    weight     = 1
+  [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    pageRef    = "/about"
+    weight     = 2
+
+[markup]
+  [markup.highlight]
+    noClasses   = false
+    lineNos     = false
+    tabWidth    = 4
+    guessSyntax = true
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
