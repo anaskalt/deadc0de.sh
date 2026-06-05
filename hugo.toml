@@ -22,12 +22,15 @@ enableEmojis = true
   author      = "deadc0de"
   promptUser  = "root"
   promptHost  = "deadc0de"
-  description = "Security writeups: ethical pentesting, embedded, reversing."
-  bio         = "I break things on purpose and write it down. Pentesting, embedded/IoT, reversing — education and **authorized** testing only."
+  description = "A curious guy breaking things and writing about it — security, embedded, and reverse engineering, plus the occasional tangent."
+  bio         = "Just a curious guy who takes things apart to see how they work, then writes about it."
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/anaskalt"
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/anastasios-kaltakis"
   [[params.social]]
     name = "rss"
     url  = "/index.xml"
