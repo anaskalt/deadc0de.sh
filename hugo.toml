@@ -24,6 +24,7 @@ enableEmojis = true
   promptHost  = "deadc0de"
   description = "A curious guy breaking things and writing about it — security, embedded, and reverse engineering, plus the occasional tangent."
   bio         = "Just a curious guy who takes things apart to see how they work, then writes about it."
+  favicon     = "favicon.svg"
 
   [[params.social]]
     name = "github"
