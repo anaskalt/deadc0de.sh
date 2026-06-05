@@ -1,6 +1,9 @@
 +++
 title = "about"
 toc = false
+
+[build]
+  list = 'never'
 +++
 ## $ whoami
 
